@@ -11,7 +11,7 @@ export const useAuth = () => {
   }
   return context;
 };
-
+// sera que si?
 // jeje Xd
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);

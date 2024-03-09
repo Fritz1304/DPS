@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useAuth } from '../context/authContext';
+import { useAuth } from '../context/AuthContext';
 //import AbogadoItem from './AbogadoItem';
 
 function AbogadosList() {
