@@ -1,6 +1,6 @@
 import axios from "./axios";
 
-const API = 'http://localhost:3001/api'
+const API = 'https://dps-sfyn.onrender.com/api'
 export const registerRequest= user => axios.post(`/register`,user) 
 export const registerAbogaRequest= abogado => axios.post(`/abogadoregister`,abogado)     
 export const loginRequest= user => axios.post(`/login`,user)   
