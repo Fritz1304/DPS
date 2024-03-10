@@ -8,7 +8,8 @@ import LoginAbogado from './pages/LoginAbogado'
 import AbogadosList from './pages/AbogadosList'
 import ProtectedRoute from './ProtectedRoute'
 import Bienvenida from './pages/Bienvenida'
-//aaaaaa
+//JSX ,  configuracion endpoints
+
 function App(){
   return(
       // RUTA DE LOS ENDPOINTS
