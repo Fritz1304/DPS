@@ -1,7 +1,7 @@
 import { Navigate,Outlet } from "react-router-dom"
 import { useAuth } from "./context/AuthContext"
 
-// asjkfbaskjbfasj
+// arutas para login
 function ProtectedRoute(){
     const { isAuthenticated, loading } = useAuth();
   
